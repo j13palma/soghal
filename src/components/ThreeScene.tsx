@@ -47,7 +47,7 @@ export default function ThreeScene() {
       shadows={true}
       style={{ background: 'white' }}
     >
-      <ambientLight intensity={0.8} />
+      <ambientLight intensity={1.5} />
       <spotLight
         position={[3, 3, 3]}
         angle={0.2}
